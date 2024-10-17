@@ -1,0 +1,24 @@
+{
+  "name": "archive-lambdas",
+  "version": "1.0.0",
+  "description": "Simple script for archiving Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node run.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.670.0",
+    "assert": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "volta": {
+    "node": "20.18.0"
+  }
+}
